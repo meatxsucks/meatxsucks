@@ -73,30 +73,33 @@ Mi trabajo va desde la **arquitectura de APIs** y la **ingesta de datos** (DataL
 <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS"/>
 <img src="https://img.shields.io/badge/Redshift-FF9900?style=flat-square&logo=amazon-redshift&logoColor=white" alt="Redshift"/>
 <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white" alt="Snowflake"/>
-<img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat-square&logo=apache-spark&logoColor=white" alt="Spark"/>
-<img src="https://img.shields.io/badge/Apache%20NiFi-A2FF12?style=flat-square&logo=apache-nifi&logoColor=black" alt="NiFi"/>
-<img src="https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apache-airflow&logoColor=white" alt="Airflow"/>
-</td></tr>
-<tr><td align="center"><b>BI &amp; Viz</b></td><td>
-<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=power-bi&logoColor=black" alt="Power BI"/>
-<img src="https://img.shields.io/badge/MicroStrategy-F4772E?style=flat-square" alt="MicroStrategy"/>
-<img src="https://img.shields.io/badge/SAP-Analytics-008FD3?style=flat-square&logo=sap&logoColor=white" alt="SAP"/>
+<img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="GCP"/>
+<img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white" alt="Spark"/>
 </td></tr>
 <tr><td align="center"><b>ETL &amp; Orquestación</b></td><td>
-<img src="https://img.shields.io/badge/Talend-0070C0?style=flat-square&logo=talend&logoColor=white" alt="Talend"/>
-<img src="https://img.shields.io/badge/SSIS-0078D7?style=flat-square&logo=microsoft&logoColor=white" alt="SSIS"/>
-<img src="https://img.shields.io/badge/MWAA-FF9900?style=flat-square&logo=amazon-aws&logoColor=white" alt="MWAA"/>
+<img src="https://img.shields.io/badge/Apache%20NiFi-A2FF12?style=for-the-badge&logo=apache-nifi&logoColor=black" alt="NiFi"/>
+<img src="https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white" alt="Airflow"/>
+<img src="https://img.shields.io/badge/AWS%20MWAA-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="MWAA"/>
+</td></tr>
+<tr><td align="center"><b>ML &amp; IA</b></td><td>
+<img src="https://img.shields.io/badge/Python%20ML-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python ML"/>
+<img src="https://img.shields.io/badge/OpenRouter-6467F2?style=for-the-badge" alt="OpenRouter"/>
+<img src="https://img.shields.io/badge/Claude-8A2BE2?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude"/>
+</td></tr>
+<tr><td align="center"><b>BI &amp; Viz</b></td><td>
+<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black" alt="Power BI"/>
+<img src="https://img.shields.io/badge/MicroStrategy-F4772E?style=for-the-badge" alt="MicroStrategy"/>
 </td></tr>
 <tr><td align="center"><b>DevOps &amp; Tools</b></td><td>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
-<img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" alt="Terraform"/>
-<img src="https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white" alt="GitLab"/>
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+<img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform"/>
+<img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab"/>
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/>
 </td></tr>
-<tr><td align="center"><b>AI &amp; IDE</b></td><td>
-<img src="https://img.shields.io/badge/Claude%20Code-D4A27C?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code"/>
-<img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white" alt="Cursor"/>
-<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
+<tr><td align="center"><b>IDEs</b></td><td>
+<img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor"/>
+<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
+<img src="https://img.shields.io/badge/AWS%20Console-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS Console"/>
 </td></tr>
 </table>
 
@@ -144,23 +147,23 @@ Mi trabajo va desde la **arquitectura de APIs** y la **ingesta de datos** (DataL
 
 ### **Data Engineer** · Seidor Chile (2021–2022) — *Grupo ESSBIO*
 - Tableros **Power BI** de alta disponibilidad
-- **SAP BO / SAP Data Services** para AMCOR (Perú) — proyectos Niveles de Inventarios y Tasmania
-- Carga de proyectos vía **GitLab** y **Mantis**
+- Proyectos **Niveles de Inventarios** y **Tasmania** (AMCOR, Perú)
+- Carga de proyectos vía **GitLab**
 
 ### **Consultor BI** · Henley Analytics (2020)
-- Dashboards en **SAP Analytics Cloud** para **NISSAN** y **MITTA**
+- Dashboards en **SAP Analytics Cloud** para **NISSAN** y **MITTA** *(proyecto 2020)*
 - Automatización de reportes Excel y soporte multi-idioma
 
 ### **Analista Senior / Analista de Sistemas TI** · PwC (2018–2020)
 - Reproceso de cálculo de **intereses bancarios** · evaluación de riesgos
-- Sistema de asignación de clientes en **Google App Script** + **jQuery**
-- **Auditorías de riesgo** y pruebas de seguridad · revisión de controles **SAP BASIS**
+- Automatización de procesos y desarrollo web
+- **Auditorías de riesgo**, pruebas de seguridad y revisión de controles de acceso
 
 ---
 
 ## 🎓 Formación & Docencia
 
-- 🎤 **Relator de cursos** · *Transversal Capacitaciones* (2023) — **Talend ETL** y **Power BI**
+- 🎤 **Relator de cursos** · *Transversal Capacitaciones* (2023) — **Power BI**
 
 ---
 
@@ -182,7 +185,7 @@ Mi trabajo va desde la **arquitectura de APIs** y la **ingesta de datos** (DataL
 
 ## 🎸 Fuera del trabajo
 
-Cuando no estoy moviendo datos, estoy con el **bajo** 🎸, la **guitarra** 🎶, los **videojuegos** 🎮 y, inevitablemente, **programando** 💻.
+Cuando no estoy moviendo datos, estoy con la **guitarra** 🎸, el **bajo** 🎵, los **videojuegos** 🎮 y, inevitablemente, **programando** 💻.
 
 ---
 

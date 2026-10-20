@@ -15,10 +15,10 @@ USERNAME = "meatxsucks"
 ROLE = "Senior Data Engineer"
 TAGLINE = "Data Pipelines · Cloud · BI · Automation"
 
-LANGUAGES_PROG = ["Python", "SQL", "AWS Glue", "Apache NiFi", "Amazon Redshift"]
+LANGUAGES_PROG = ["Python", "SQL", "AWS Glue", "Apache NiFi", "Amazon Redshift", "Snowflake", "GCP"]
 LANGUAGES_SPOKEN = ["Español", "Inglés"]
-HOBBIES = "Bass music, Guitar, Gaming, Code"
-IDE_TOOLS = ["Claude Code", "Cursor", "VS Code", "AWS Console", "Snowflake"]
+HOBBIES = "Guitar, Bass, Gaming, Code"
+IDE_TOOLS = ["VS Code", "Cursor", "AWS Console", "Snowflake", "GitLab"]
 OS = "macOS · Windows"
 LOCATION = "Santiago, Chile"
 FOCUS = "Data Platform / Datasharing @ Cencosud"
