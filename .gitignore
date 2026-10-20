@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Personal photo (do not publish to GitHub)
+photo.jpeg
+*.jpeg
+*.jpg
+
+# Dependencies & build artifacts
+node_modules/
+venv/
+.env
+.svelte-kit/
+.vercel/
+.godot/
+__pycache__/
+*.pyc
