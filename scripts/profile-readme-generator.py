@@ -13,15 +13,15 @@ from datetime import datetime
 # ====================== CONFIGURA TUS DATOS ======================
 USERNAME = "meatxsucks"
 ROLE = "Senior Data Engineer"
-TAGLINE = "Data Pipelines · Cloud · BI · Automation"
+TAGLINE = "Data Pipelines · Cloud · AI · Automation"
 
 LANGUAGES_PROG = ["Python", "SQL", "AWS Glue", "Apache NiFi", "Amazon Redshift", "Snowflake", "GCP"]
 LANGUAGES_SPOKEN = ["Español", "Inglés"]
 HOBBIES = "Guitar, Bass, Gaming, Code"
-IDE_TOOLS = ["VS Code", "Cursor", "AWS Console", "Snowflake", "GitLab"]
-OS = "macOS · Windows"
+IDE_TOOLS = ["VS Code", "Cursor", "AWS", "Snowflake", "GitLab"]
+OS = "macOS · Linux"
 LOCATION = "Santiago, Chile"
-FOCUS = "Data Platform / Datasharing @ Cencosud"
+FOCUS = "Data Architecture / Datasharing @ Cencosud"
 
 EMAIL = ""
 LINKEDIN = ""

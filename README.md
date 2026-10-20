@@ -26,15 +26,14 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=meatxsucks&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true" alt="GitHub Stats" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api?username=meatxsucks&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&rank_avatar=1" alt="Top Langs" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=meatxsucks&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=meatxsucks&show_icons=true&theme=github_dark&hide_border=true&langs_count=8&layout=compact" alt="Top Langs" height="165"/>
 
 </div>
 
 <div align="center">
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=meatxsucks&theme=dark&hide_border=true" alt="GitHub Streak" height="165"/>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=meatxsucks&theme=github-compact-dark&hide_border=true&area=true" alt="Activity Graph" height="165"/>
 
 </div>
 
@@ -56,6 +55,8 @@ Mi trabajo va desde la **arquitectura de APIs** y la **ingesta de datos** (DataL
 - ☁️ **Defino infraestructura como código** y despliegue automático para productos de datos
 - 📊 **Automatizo reportes** en MicroStrategy y Power BI basados en eventos
 - 🛡️ **Gobierno de datos**: calidad, trazabilidad, seguridad y cumplimiento normativo
+- ⚡ **Streaming & CDC**: datos en tiempo real con Kafka, Kinesis y Spark Structured Streaming
+- 🤖 **ML Engineering**: modelos de datos para BI y automatización con Python (pandas, scikit-learn, PyTorch, MLflow)
 
 ---
 
@@ -81,10 +82,20 @@ Mi trabajo va desde la **arquitectura de APIs** y la **ingesta de datos** (DataL
 <img src="https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white" alt="Airflow"/>
 <img src="https://img.shields.io/badge/AWS%20MWAA-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="MWAA"/>
 </td></tr>
+<tr><td align="center"><b>Real-time &amp; Streaming</b></td><td>
+<img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white" alt="Kafka"/>
+<img src="https://img.shields.io/badge/Amazon%20Kinesis-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="Kinesis"/>
+<img src="https://img.shields.io/badge/Spark%20Streaming-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white" alt="Spark Streaming"/>
+<img src="https://img.shields.io/badge/Debezium-F4A82A?style=for-the-badge" alt="Debezium CDC"/>
+<img src="https://img.shields.io/badge/Apache%20Flink-E6526F?style=for-the-badge&logo=apache-flink&logoColor=white" alt="Flink"/>
+</td></tr>
 <tr><td align="center"><b>ML &amp; IA</b></td><td>
 <img src="https://img.shields.io/badge/Python%20ML-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python ML"/>
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn"/>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
+<img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas"/>
+<img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" alt="MLflow"/>
 <img src="https://img.shields.io/badge/OpenRouter-6467F2?style=for-the-badge" alt="OpenRouter"/>
-<img src="https://img.shields.io/badge/Claude-8A2BE2?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude"/>
 </td></tr>
 <tr><td align="center"><b>BI &amp; Viz</b></td><td>
 <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black" alt="Power BI"/>
