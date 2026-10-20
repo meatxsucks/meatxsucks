@@ -25,7 +25,7 @@
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=meatxsucks&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api?username=meatxsucks&show_icons=true&theme=github_dark&hide_border=true&langs_count=8&layout=compact" alt="Top Langs" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=meatxsucks&show_icons=true&theme=github_dark&hide_border=true&langs_count=8&layout=compact" alt="Top Langs" height="165"/>
 
 </div>
 
