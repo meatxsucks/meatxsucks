@@ -5,7 +5,7 @@ Profile README Generator — perfil de GitHub para meatxsucks
 Genera dark_mode.svg / light_mode.svg con ASCII art desde tu foto
 y estadísticas reales de GitHub.
 
-Uso: python3 profile-readme-generator.py
+Uso: python3 scripts/profile-readme-generator.py
 """
 
 from datetime import datetime
@@ -13,12 +13,18 @@ from datetime import datetime
 # ====================== CONFIGURA TUS DATOS ======================
 USERNAME = "meatxsucks"
 ROLE = "Senior Data Engineer"
+TAGLINE = "Data Pipelines · Cloud · BI · Automation"
+
 LANGUAGES_PROG = ["Python", "SQL", "AWS Glue", "Apache NiFi", "Amazon Redshift"]
 LANGUAGES_SPOKEN = ["Español", "Inglés"]
 HOBBIES = "Bass music, Guitar, Gaming, Code"
-IDE_TOOLS = ["VS Code", "Cursor", "AWS Console", "Snowflake", "GitLab"]
+IDE_TOOLS = ["Claude Code", "Cursor", "VS Code", "AWS Console", "Snowflake"]
+OS = "macOS · Windows"
+LOCATION = "Santiago, Chile"
+FOCUS = "Data Platform / Datasharing @ Cencosud"
+
 EMAIL = ""
-LINKEDIN = "in/matias-cruz-XXXX"
+LINKEDIN = ""
 GITHUB_URL = f"https://github.com/{USERNAME}"
 # =================================================================
 
@@ -46,12 +52,14 @@ ART = r"""
 ##########@#S%%%SSSSSS#@@@@@@@@@@@@S??
 """
 
+# Actualizado 2026-10-19 desde la API de GitHub
 STATS = {
-    "repos": "16",
+    "repos": "17",
     "stars": "5",
     "commits": "—",
     "followers": "4",
-    "contributed": "—",
+    "following": "12",
+    "since": "2018",
 }
 
 PALETTES = {
@@ -65,6 +73,7 @@ PALETTES = {
         "d": "#484f58",
         "g": "#3fb950",
         "r": "#f85149",
+        "c": "#39c5cf",
     },
     "light": {
         "bg": "#ffffff",
@@ -76,11 +85,14 @@ PALETTES = {
         "d": "#afb8c1",
         "g": "#1a7f37",
         "r": "#cf222e",
+        "c": "#1b7c83",
     },
 }
 
+W = 56  # ancho de la columna de info (en caracteres)
 
-def kv(key, val, width=56):
+
+def kv(key, val, width=W):
     dots = "." * max(width - len(key) - len(str(val)) - 3, 1)
     return [(f"{key}: ", "k"), (dots + " ", "d"), (str(val), "v")]
 
@@ -92,14 +104,17 @@ def kv2(k1, v1, k2, v2):
 
 def rule(title=""):
     label = f"─ {title} " if title else ""
-    return [(label, "h"), ("─" * (56 - len(label)), "d")]
+    return [(label, "h"), ("─" * (W - len(label)), "d")]
 
 
 def build_info_lines():
     return [
-        [(f"{USERNAME.lower()}@github ", "h"), ("─" * (56 - len(USERNAME) - 8), "d")],
+        [(f"{USERNAME.lower()}@github ", "h"), ("─" * (W - len(USERNAME) - 8), "d")],
         [],
         kv("ROLE", ROLE),
+        kv("FOCUS", FOCUS),
+        kv("LOCATION", LOCATION),
+        kv("OS", OS),
         [],
         kv("Languages.Programming", ", ".join(LANGUAGES_PROG) or "—"),
         kv("Languages.Spoken", ", ".join(LANGUAGES_SPOKEN) or "—"),
@@ -113,6 +128,7 @@ def build_info_lines():
         rule("GitHub Stats"),
         kv2("Repos", STATS["repos"], "Stars", STATS["stars"]),
         kv2("Commits", STATS["commits"], "Followers", STATS["followers"]),
+        kv2("Following", STATS["following"], "Member since", STATS["since"]),
     ]
 
 
@@ -126,9 +142,9 @@ def render(mode):
     info = build_info_lines()
 
     out = [
-        '<svg xmlns="http://www.w3.org/2000/svg" width="840" height="500" viewBox="0 0 840 500" '
+        '<svg xmlns="http://www.w3.org/2000/svg" width="840" height="560" viewBox="0 0 840 560" '
         f'font-family="Consolas, Menlo, monospace" font-size="13px">',
-        f'<rect x="0.5" y="0.5" width="839" height="499" rx="10" fill="{p["bg"]}" stroke="{p["border"]}"/>',
+        f'<rect x="0.5" y="0.5" width="839" height="559" rx="10" fill="{p["bg"]}" stroke="{p["border"]}"/>',
     ]
     for i, line in enumerate(lines):
         out.append(
@@ -153,26 +169,6 @@ def main():
         with open(fname, "w", encoding="utf-8") as f:
             f.write(svg)
         print(f"wrote {fname} ({len(svg)} bytes)")
-
-    readme = f"""# {USERNAME}'s GitHub Profile
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
-  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg">
-  <img alt="{USERNAME}'s GitHub profile" src="dark_mode.svg">
-</picture>
-
----
-
-**Note**: This README is auto-generated. Edit `profile-readme-generator.py` to customize.
-
-**Generated on**: {datetime.now().strftime('%B %d, %Y')}
-
-**GitHub**: {GITHUB_URL}
-"""
-    with open("README.md", "w", encoding="utf-8") as f:
-        f.write(readme)
-    print(f"wrote README.md ({len(readme)} bytes)")
     print("Done.")
 
 
