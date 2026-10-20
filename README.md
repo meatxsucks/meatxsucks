@@ -12,8 +12,6 @@
 
 ---
 
-## 🖼️ Profile Card
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
   <source media="(prefers-color-scheme: light)" srcset="light_mode.svg">
@@ -203,7 +201,7 @@ Cuando no estoy moviendo datos, estoy con la **guitarra** 🎸, el **bajo** 🎵
 ## 📫 Contacto
 
 - 💼 **LinkedIn** — [in/matias-cruz](https://www.linkedin.com/in/)
-- 📧 **Email** — `matias.cruzdiaz@externos-cl.cencosud.com`
+- 📧 **Email** — `matiascruzd14@gmail.com`
 - 💻 **GitHub** — [@meatxsucks](https://github.com/meatxsucks)
 
 ---

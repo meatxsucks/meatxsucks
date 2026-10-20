@@ -23,7 +23,7 @@ OS = "macOS · Linux"
 LOCATION = "Santiago, Chile"
 FOCUS = "Data Architecture / Datasharing @ Cencosud"
 
-EMAIL = ""
+EMAIL = "matiascruzd14@gmail.com"
 LINKEDIN = ""
 GITHUB_URL = f"https://github.com/{USERNAME}"
 # =================================================================
